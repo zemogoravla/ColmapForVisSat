@@ -7,5 +7,6 @@ if [ ! -d $build_dir ]; then
 fi
 
 cd $build_dir
-CC=/usr/bin/gcc-6 CXX=/usr/bin/g++-6 cmake ..
+#CC=/usr/bin/gcc-6 CXX=/usr/bin/g++-6 cmake ..
+CC=/usr/bin/gcc CXX=/usr/bin/g++ cmake ..
 make -j8
