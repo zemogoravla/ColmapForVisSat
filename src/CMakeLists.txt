@@ -28,7 +28,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 #
 # Author: Johannes L. Schoenberger (jsch-at-demuc-dot-de)
-
+ 
 if(IS_MSVC)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /W3")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W3")
